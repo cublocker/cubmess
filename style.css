@@ -1,0 +1,61 @@
+/* Стили для сообщений */
+.message {
+    margin: 15px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.message:hover {
+    background: rgba(79, 84, 92, 0.16);
+}
+
+.message-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.message-user {
+    color: #fff;
+    font-size: 16px;
+}
+
+.message-time {
+    color: #72767d;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+
+.message-text {
+    color: #dcddde;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.chat-header {
+    padding: 15px 20px;
+    border-bottom: 1px solid #40444b;
+    background: #36393f;
+}
+
+.chat-header h2 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.chat-header small {
+    color: #b9bbbe;
+    font-size: 0.8em;
+}
+
+/* Информация о сохранениях */
+.storage-info {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: #57f287;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.8em;
+}
